@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100vh;
+    background-color: #eff4fd;
+}
+.center{
+    position: absolute;
+    top: 18%;
+    left: 40%;
+    width: 400px;
+    background-color: white;
+    border-radius: 15px;
+}
+.center h1{
+    text-align: center;
+    padding: 0 0 20 0;
+    border-bottom: 1px solid silver;
+}
+.center form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+form .txt_field{
+    position: relative;
+    border-bottom: 2px solid #4985d3;
+    margin: 30px 0;
+}
+.txt_field input{
+    width: 100%;
+    padding: 0 5px;
+    font-size: 16px;
+    height: 40px;
+    border: none;
+    background: none;
+    outline: none;
+}
+.txt_field label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #adadad;
+    transform: translateY(-50%);
+    pointer-events: none;
+    font-size: 16px;
+}
+.pass{
+    margin: -5px 0 20px 5px;
+    color: #a6a6a6;
+    cursor: pointer;
+}
+.pass:hover{
+    text-decoration: underline;
+}
+
+input[type="submit"]{
+    width: 100%;
+    border: 1px solid;
+    height: 50px;
+    background-color:  #4985d3;
+    border-radius: 25px;
+    color: #eff4fd;
+    cursor: pointer;
+    outline: none;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+input[type="submit"]:hover{
+    border-color:  #4985d3;
+    transition: .5s;
+}
+.signup{
+    margin: 30px 0;
+    text-align: center;
+    color: #666666;
+}
+.signup a{
+    color: #4985d3;
+    text-decoration: none;
+}
+.signup a:hover{
+    text-decoration: underline;
+}
